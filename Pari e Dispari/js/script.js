@@ -15,7 +15,15 @@ function evenOrOdd(sum){
 
 //definizione variabili
 const choice = prompt('Inserisci pari o dispari');
-const userNumber = parseInt(prompt('Inserisci in numero tra 1 e 5'));
+const userNumber = parseInt(prompt('Inserisci un numero tra 1 e 5'));
 const pcNumber = randomNumber();
 
 const sum = userNumber + pcNumber;
+
+//stabilisco il vincitore
+if(evenOrOdd(sum)=== choice){
+  console.log(`il valore della somma è ${sum}. L' utente ha vinto`)
+}
+else{
+  console.log(`il valore della somma e ${sum}. L' utente ha perso`)
+}
