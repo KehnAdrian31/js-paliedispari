@@ -20,6 +20,9 @@ const pcNumber = randomNumber();
 
 const sum = userNumber + pcNumber;
 
+console.log(`il numero generato dal pc è ${pcNumber}`)
+console.log(`il numero del utente è ${userNumber}`)
+console.log(`la scelta del utente è ${choice}`)
 //stabilisco il vincitore
 if(evenOrOdd(sum)=== choice){
   console.log(`il valore della somma è ${sum}. L' utente ha vinto`)
